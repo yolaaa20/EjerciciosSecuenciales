@@ -1,0 +1,9 @@
+import os
+
+os.system ("cls")
+
+mujeres= int(input("ingresar el numero de mujeres: "))
+hombres= int(input("ingresar el numero de hombres: "))
+total=mujeres+hombres
+print("el porcentaje de mujeres es:  ",(mujeres/total)*100, "%")
+print("el porcentaje de hombres es:  ",(hombres/total)*100, "%")
